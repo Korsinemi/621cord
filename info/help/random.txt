@@ -1,0 +1,10 @@
+the `/random` command gets a random post from e621 after applying your preferred and search tags
+
+in order to do this, first your preferred tags will be applied, then the tags from your query will be applied
+certain tags will always be applied after the query to dramatically reduce the amount of inappropriate content one might find in a context
+
+in SFW channels, the tag set `rating:s -rating:e -rating:q` is added on to every request, regardless of the tags you list; this is because it is not possible to spoil non-uploaded attachments, or images for embeds
+
+in NSFW channels, a few other tags will be barred from results
+
+in DMs, there are no required tags; know that this is a double-edged sword, and that you'll need to exclude *all* tags you don't wish to see

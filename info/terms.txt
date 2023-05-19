@@ -1,0 +1,6 @@
+By using this Discord Bot (hereafter referred to as the Service), you agree to the following terms of service. If you do not agree to these terms, then please do not use the Service.
+
+```md
+* If you are under the age of 18, you will not use the Service.
+* The Service is presented to you AS IS, without any warranty, express or implied. You will not hold the Service or the people responsible for it liable for damages caused by use of this service.
+```

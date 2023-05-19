@@ -1,0 +1,5 @@
+i don't really know how to help you other than explain the other help pages here if you just say help, so i guess i'll do that
+
+`tags` -- this should explain the slightly altered tags system i use
+`prefs` -- this will focus more on how to use `/prefs`
+`random` -- this will focus on interactions between prefs and `/random`

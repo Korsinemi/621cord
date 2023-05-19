@@ -1,0 +1,21 @@
+the tag system i use heavily relies upon e6's tag system, but is different enough that i'll explain it here
+
+for those of you who haven't gone to e621 yet, e6 uses a tag-based search system, in which posts may be found by using a number of tags, separated by spaces -- spaces are usually replaced by underscores for multi-word tags
+
+you can look for posts that include a tag simply by adding the tag to your search, usually called a `query`
+for example, if you wanted to look for a tag involving a single canine character, you could use the query `canine solo`
+
+if you want to make sure you don't see a particular tag, you can exclude it by adding a `-` right before it
+for example, if you are upset by depictions of gore and don't want to see it, you might want to include the tag `-gore` in your queries; if you wanted to combine this with the above example -- posts of single canine characters, not including gore -- you might use the query `canine -gore solo`
+
+due to issues in the logical implementation of such a feature, there are currently no plans to implement support for wildcard tags, but on e6, you can match a post including either `canine` or `canid` by using the tag `cani*`, which will match any tag that starts with the characters `cani`
+
+in the above example (not wishing to see gore) on e621, you might make an account there and add `gore` to your post blacklist
+instead of a blacklist, i've opted for a 'preferred tags' system that has some pros and cons versus e621's blacklist system
+
+noting that e6 claims its own `~tag` system is flawed I've reused the symbol for a separate purpose, 
+
+due to character limits on responses, more details on the prefs system are going to be under `/help prefs`
+interactions with prerferences and queries are going to be listed under `/help random`
+
+for more info on this,

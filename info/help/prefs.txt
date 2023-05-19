@@ -1,0 +1,17 @@
+the `/prefs` command is used in conjunction with other commands that use preferred tags (currently only `/random`) to reduce the amount of tags you have to type out each time you use a command with a tags option
+
+on e621, there is not a way to automatically fill out particular tags, as standard search bars normally do not have such a feature
+however, on chat-based services, typing in the same query repeatedly would get tiring quickly
+thus default tags were introduced as a convenience
+
+there are three separate "contexts" which each maintain their own independent preferred tag-set: SFW channels, NSFW channels, and DMs
+in order to view your preferred tags, you can run `/prefs` with no options, or with a blank `tags` option
+
+going back to the example from earlier, if you don't want to see gore when you use the bot in DMs, you would run `/prefs -gore` in DMs
+now, every time you run `/random`, `-gore` will be added to the tags in the query
+
+if you want to remove a tag (or tag exclusion) from your preferences, you would prefix that tag with a `~`
+for example, if you had at one point added the `-marsupial` tag to your prefs in a non-NSFW channel, you could run `/prefs ~marsupial` to undo it
+e6 and e9 do have their own uses of the ~ prefix, but the sites themselves claim that their results aren't predictable when used with other tags
+
+every time you run the `/prefs` command, you'll be shown your own preferred tags for the context you use it in

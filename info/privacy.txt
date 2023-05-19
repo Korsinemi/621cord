@@ -1,0 +1,23 @@
+**PRIVACY POLICY**
+
+__Information we access through Discord__
+We gain access to and may use the following information whenever you or another user adds this Discord Bot to a server:
+```md
+* A full list of channels in the server, and details about them.
+```
+
+We may use the following information whenever you use a command provided by this Discord Bot:
+```md
+* The channel it was sent in, to determine which set of preferred/restricted tags to use.
+* Your user ID, to apply preferences and assert you are verified.
+* Other information you provide.
+```
+
+__Information you may provide to us__
+You may, at your discretion, provide the following information:
+```md
+* Preferences/default configurations
+```
+
+__Information we must collect__
+Whenever you press a button on a message this bot has sent, the bot will use your Discord User ID in order to connect you with the data you have provided.

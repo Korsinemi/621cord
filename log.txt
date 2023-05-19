@@ -1,0 +1,138 @@
+DiscordAPIError[50035]: Invalid Form Body
+0.options[0].autocomplete[APPLICATION_COMMAND_AUTOCOMPLETE_INVALID]: Autocomplete cannot be configured for this type of option
+    at SequentialHandler.runRequest (C:\Users\user\Documents\discord bots\susse6\node_modules\@discordjs\rest\dist\index.js:750:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async SequentialHandler.queueRequest (C:\Users\user\Documents\discord bots\susse6\node_modules\@discordjs\rest\dist\index.js:562:14)
+    at async REST.request (C:\Users\user\Documents\discord bots\susse6\node_modules\@discordjs\rest\dist\index.js:996:22)
+    at async ApplicationCommandManager.set (C:\Users\user\Documents\discord bots\susse6\node_modules\discord.js\src\managers\ApplicationCommandManager.js:166:18) {
+  rawError: {
+    code: 50035,
+    errors: {
+      '0': { options: { '0': { autocomplete: [Object] } } }
+    },
+    message: 'Invalid Form Body'
+  },
+  code: 50035,
+  status: 400,
+  method: 'PUT',
+  url: 'https://discord.com/api/v10/applications/967521712931487754/commands',
+  requestBody: {
+    files: undefined,
+    json: [
+      {
+        name: 'help',
+        name_localizations: undefined,
+        description: 'view details on how the bot works',
+        description_localizations: undefined,
+        type: 1,
+        options: [
+          {
+            type: 3,
+            name: 'category',
+            name_localizations: undefined,
+            name_localized: undefined,
+            description: 'select which area you would like help in',
+            description_localizations: undefined,
+            description_localized: undefined,
+            required: true,
+            autocomplete: true,
+            choices: [Array],
+            options: undefined,
+            channel_types: undefined,
+            min_value: undefined,
+            max_value: undefined
+          }
+        ],
+        default_permission: undefined
+      },
+      {
+        name: 'ping',
+        name_localizations: undefined,
+        description: 'ping the bot',
+        description_localizations: undefined,
+        type: 1,
+        options: [],
+        default_permission: undefined
+      },
+      {
+        name: 'prefs',
+        name_localizations: undefined,
+        description: 'manage your default tags',
+        description_localizations: undefined,
+        type: 1,
+        options: [
+          {
+            type: 3,
+            name: 'tags',
+            name_localizations: undefined,
+            name_localized: undefined,
+            description: 'specify how you wish to change your tags',
+            description_localizations: undefined,
+            description_localized: undefined,
+            required: false,
+            autocomplete: undefined,
+            choices: undefined,
+            options: undefined,
+            channel_types: undefined,
+            min_value: undefined,
+            max_value: undefined
+          }
+        ],
+        default_permission: undefined
+      },
+      {
+        name: 'privacy',
+        name_localizations: undefined,
+        description: 'view the privacy policy',
+        description_localizations: undefined,
+        type: 1,
+        options: [],
+        default_permission: undefined
+      },
+      {
+        name: 'random',
+        name_localizations: undefined,
+        description: 'get a random post from e6',
+        description_localizations: undefined,
+        type: 1,
+        options: [
+          {
+            type: 3,
+            name: 'tags',
+            name_localizations: undefined,
+            name_localized: undefined,
+            description: 'specify which tags you want to be used in the search',
+            description_localizations: undefined,
+            description_localized: undefined,
+            required: false,
+            autocomplete: undefined,
+            choices: undefined,
+            options: undefined,
+            channel_types: undefined,
+            min_value: undefined,
+            max_value: undefined
+          }
+        ],
+        default_permission: undefined
+      },
+      {
+        name: 'terms',
+        name_localizations: undefined,
+        description: 'view the terms of service',
+        description_localizations: undefined,
+        type: 1,
+        options: [],
+        default_permission: undefined
+      },
+      {
+        name: 'verify',
+        name_localizations: undefined,
+        description: 'enable your use of the bot',
+        description_localizations: undefined,
+        type: 1,
+        options: [],
+        default_permission: undefined
+      }
+    ]
+  }
+}
