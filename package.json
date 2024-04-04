@@ -1,20 +1,36 @@
 {
-  "dependencies": {
-    "@discordjs/rest": "^0.5.0-dev.1653091732-fdeac9d",
-    "async-mutex": "^0.3.2",
-    "discord.js": "^14.0.0-dev.1652573522-7ce641d",
-    "fs": "^0.0.1-security",
-    "node-fetch": "^3.2.4"
-  },
-  "name": "suss_e6",
-  "version": "1.0.0",
-  "description": "Discord Bot for fetching images from e621, and by extension e926",
-  "main": "main.js",
-  "type": "module",
-  "scripts": {
-    "start": "node main.js",
-    "register": "node commands/.registerCommands.js"
-  },
-  "author": "arden_arteles",
-  "license": "ISC"
+    "dependencies": {
+        "async-mutex": "^0.3.2",
+        "discord.js": "^14.12.1",
+        "dotenv": "^16.4.5",
+        "fs": "^0.0.1-security",
+        "node-fetch": "^3.2.4"
+    },
+    "name": "621cord",
+    "version": "1.0.2-korsinemi",
+    "description": "Discord Bot for fetching images from e621, and by extension e926 - Originally by arden_arteles",
+    "main": "main.js",
+    "type": "module",
+    "scripts": {
+        "start": "node main.js",
+        "register": "node commands/.registerCommands.js"
+    },
+    "author": "korsinemi",
+    "license": "ISC",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Korsinemi/621cord.git"
+    },
+    "keywords": [
+        "e621",
+        "yiff",
+        "furry",
+        "discord",
+        "bot",
+        "discord.js"
+    ],
+    "bugs": {
+        "url": "https://github.com/Korsinemi/621cord/issues"
+    },
+    "homepage": "https://github.com/Korsinemi/621cord#readme"
 }
