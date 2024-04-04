@@ -1,4 +1,4 @@
-# Discord621
+# 621cord
 
 > Note: This was forked from susse6
 
