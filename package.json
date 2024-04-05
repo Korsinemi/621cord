@@ -1,13 +1,14 @@
 {
     "dependencies": {
         "async-mutex": "^0.3.2",
+        "axios": "^1.6.8",
         "discord.js": "^14.12.1",
         "dotenv": "^16.4.5",
         "fs": "^0.0.1-security",
         "node-fetch": "^3.2.4"
     },
     "name": "621cord",
-    "version": "1.0.2-korsinemi",
+    "version": "1.0.8-korsinemi",
     "description": "Discord Bot for fetching images from e621, and by extension e926 - Originally by arden_arteles",
     "main": "main.js",
     "type": "module",
