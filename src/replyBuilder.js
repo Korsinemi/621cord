@@ -72,6 +72,7 @@ export function embed(post) {
         Buttons.tags.component
     ]);
 
+
     var response = { embeds: [embed], components: [actionRow], files: [] };
     if (videoUrl) {
         response = { embeds: [embed], components: [actionRow], files: [videoUrl] };
