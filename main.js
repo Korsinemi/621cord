@@ -16,8 +16,7 @@ const client = new Client({
     allowedMentions: {
         repliedUser: true,
     },
-    restRequestTimeout: 20000,
-    ws: { properties: { browser: "Discord iOS" } }
+    restRequestTimeout: 20000
 });
 
 client.on("interactionCreate", async (interaction) => {
